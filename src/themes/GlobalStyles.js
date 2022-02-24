@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import background from '../assets/background.png'
+import background from '../assets/fundo.webp'
 
 
 export const GlobalStyle = createGlobalStyle`  
@@ -22,6 +22,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: contain;
+    background-size: 100vw;
+    
 }
 `;
