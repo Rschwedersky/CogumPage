@@ -10,7 +10,7 @@ export const Especies = () => {
     <CardGrid>
     {listaEspecie.length === 0
     ? <></>
-    : listaEspecie.map((elemento, index) => <CardEspecies key={index} games={elemento} />)}
+    : listaEspecie.map((elemento, index) => <CardEspecies key={index} cogum={elemento} />)}
      <h1>adadaadada</h1>
     </CardGrid>
     </Container>

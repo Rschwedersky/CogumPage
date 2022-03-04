@@ -1,12 +1,12 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { Topbar } from '../components/Topbar';
+import { Home } from '../Pages/Home/Home';
 
 
 
 export const Router = () => (
     <Routes>
-       <Route path="/" element={<Topbar/>} />
+       <Route path="/" element={<Home/>} />
       {/* <Route path="/home" element={<Navbar/>} />
       <Route path="/games" element={<GamesPage/>} />
       <Route path="*" element={<NoticiasPage />} />

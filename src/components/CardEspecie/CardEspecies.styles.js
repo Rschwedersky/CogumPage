@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const CardG = styled.li`
-    
+background-color: #cfcfcf;
     width: auto;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
