@@ -11,7 +11,6 @@ export const Especies = () => {
     {listaEspecie.length === 0
     ? <></>
     : listaEspecie.map((elemento, index) => <CardEspecies key={index} cogum={elemento} />)}
-     <h1>adadaadada</h1>
     </CardGrid>
     </Container>
     </>

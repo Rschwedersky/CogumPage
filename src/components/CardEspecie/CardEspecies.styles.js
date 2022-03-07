@@ -25,9 +25,11 @@ export const GamesP = styled.p`
 export const Thumbnail = styled.div`
     width: 100%;
     overflow: hidden;
+    justify-content: center;
 `;
 export const Image = styled.img`
     width: 360px;
+    border-radius: 10%;
 `;
 export const ShowMore = styled.button`
 padding: 2px;

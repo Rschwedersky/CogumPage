@@ -7,19 +7,14 @@ import shimofuriScreen from '../../assets/shimofuri.webp'
 import lionsScreen from '../../assets/lions.webp'
 import logo from './../../assets/Logo.png'
 import brancoEspecie from './../../assets/especies/brancoEspecie.webp'
+import { getCogums } from '../../services/cogums';
 
 export const CogumsProvider = ({ children }) => {
 
 
     const[listaCogums]= useState([brancoScreen, rosaScreen, amareloScreen, shimofuriScreen, lionsScreen])
-    const[listaEspecie] = useState([
-    {
-      name: 'Pleurotus Ostreatus',
-      image: brancoEspecie
-    },
-    {}
-      ])
-
+    const[listaEspecie] = useState(getCogums());
+console.log(getCogums());
 return(<CogumsContext.Provider value={{ listaCogums, listaEspecie, logo }}>
     {children}
   </CogumsContext.Provider>);
