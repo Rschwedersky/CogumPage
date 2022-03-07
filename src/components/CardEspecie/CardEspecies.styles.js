@@ -1,9 +1,14 @@
 import styled from 'styled-components';
 
 export const CardG = styled.li`
-background-color: #cfcfcf;
+bbackground: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
     width: auto;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    
     padding: 1rem;
     list-style-type: none;
     border-radius: 20px;
