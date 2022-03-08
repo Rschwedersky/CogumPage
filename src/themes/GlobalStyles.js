@@ -11,9 +11,9 @@ export const GlobalStyle = createGlobalStyle`
   padding: 0;
 }
 html {
-  font-size: 16px;
+  font-size: 26px;
   color: #333;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Amatic SC', cursive;
   
   
 }
@@ -22,7 +22,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: 100vw;
-    
+    background-size: 100vh;
+    background-color: lightgrey
 }
 `;
