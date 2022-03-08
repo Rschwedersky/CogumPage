@@ -5,7 +5,7 @@ import lionsEspecie from './../assets/especies/lionsEspecie.webp'
 import perolaEspecie from './../assets/especies/perolaEspecie.webp'
 import rosaEspecie from './../assets/especies/rosaEspecie.webp'
 import shimofuriEspecie from './../assets/especies/shimofuriEspecie.webp'
-
+import kingEspecie from './../assets/especies/kingEspecie.webp'
 
 
   
@@ -56,6 +56,14 @@ import shimofuriEspecie from './../assets/especies/shimofuriEspecie.webp'
       image: shimofuriEspecie,
       estacao: ['verao','inverno'],
       descricao:'O Shimeji branco (Pleurotus ostreatus ) é uma fonte rica em proteínas, vitaminas, minerais, fibras e outros antioxidantes como o selênio, protegendo as células do corpo de danos que podem levar a doenças crônicas e ajudam a fortalecer o sistema imunológico. Possui baixas calorias, sem gordura, sem colesterol, sem glúten e com baixo teor de sódio. O consumo contínuo de Shimeji parece diminuir o risco de obesidade, diabetes, câncer, doenças cardíacas e fortalecer o sistema imune do corpo.',
+      referência: 'https://mushroomreferences.com'
+    },
+    {
+      name: 'Pleurotus Eryngii',
+      comName:'Shimeji rei',
+      image: kingEspecie,
+      estacao: ['inverno'],
+      descricao:'Os cogumelos rei não são apenas super deliciosos. Eles também estão cheios de nutrientes de apoio à saúde, como antioxidantes naturais. Os cogumelos rei trompete têm níveis especialmente altos de ergotioneína, um antioxidante encontrado no micélio e nos corpos frutíferos do cogumelo que ajuda a reduzir os danos dos radicais livres e do estresse oxidativo. A L-Ergotioneína é o único antioxidante que possui seu próprio mecanismo de transporte celular – é um antioxidante mestre. Ao contrário de outros nutrientes, a L-Ergotioneína não é produzida pelo corpo humano e deve ser obtida de outras fontes em nossa dieta.',
       referência: 'https://mushroomreferences.com'
     },
     ]
