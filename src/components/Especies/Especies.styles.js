@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
     width: 100%;
     margin-top: 100px;
-    font-size: 50px;
+    font-size: 33px;
 `;
 
 export const CardGrid = styled.ul`

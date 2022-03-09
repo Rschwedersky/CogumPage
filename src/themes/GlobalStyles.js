@@ -18,11 +18,11 @@ html {
   
 }
 body {
-    background-image: url(${background});
+    /* background-image: url(${background});
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: 100vh;
-    background-color: lightgrey
+    background-size: 100vh; */
+    background-color: #dbdbdb
 }
 `;

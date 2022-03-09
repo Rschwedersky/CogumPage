@@ -1,17 +1,17 @@
 import styled from 'styled-components';
 
 export const CardG = styled.li`
-bbackground: rgba( 255, 255, 255, 0.15 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+background: rgba( 255, 255, 255, 0.15 );
+box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+            10px 10px 15px rgba(70,70,70,0.12);
 backdrop-filter: blur( 6px );
 -webkit-backdrop-filter: blur( 6px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
-    width: auto;
-    
-    padding: 1rem;
-    list-style-type: none;
-    border-radius: 20px;
+width: auto;
+padding: 1rem;
+list-style-type: none;
+border-radius: 20px;
 `;
 
 export const CardGTitle = styled.h2`
