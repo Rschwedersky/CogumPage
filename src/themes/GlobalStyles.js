@@ -12,7 +12,6 @@ export const GlobalStyle = createGlobalStyle`
 }
 html {
   font-size: 26px;
-  color: #333;
   font-family: 'Amatic SC', cursive;
   
   
@@ -23,6 +22,6 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: 100vh; */
-    background-color: #dbdbdb
+    background-color: #e0e0e0
 }
 `;
