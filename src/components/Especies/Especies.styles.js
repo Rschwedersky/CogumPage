@@ -4,6 +4,7 @@ export const Container = styled.div`
     width: 100%;
     margin-top: 100px;
     font-size: 33px;
+    text-align: center;
 `;
 
 export const CardGrid = styled.ul`

@@ -18,9 +18,10 @@ background: #e0e0e0;
 
 export const CardGTitle = styled.h2`
     font-size: 1.5rem;
-    /* ${CardG}:hover & {
-        background: papayawhip;;
-      } */
+    color: brown;
+     ${CardG}:hover & {
+        color: green;
+    
     
 `;
 
