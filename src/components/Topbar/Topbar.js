@@ -1,10 +1,4 @@
 import React from 'react';
-import branco from '../../assets/black-white.webp'
-import rosa from '../../assets/rosa.webp'
-import amarelo from '../../assets/amarelo.webp'
-import shimofuri from '../../assets/shimofuri.webp'
-import lions from '../../assets/lions.webp'
-
 import { Zoom } from 'react-slideshow-image';
 import { SlideShowConteiner, Box} from './Topbar.styles';
 import 'react-slideshow-image/dist/styles.css'
@@ -17,8 +11,6 @@ export const Topbar = () =>
   const {logo, listaCogums}= useCogums();
   
 
-
-    const images = [branco, rosa, amarelo, shimofuri, lions];
     
     const zoomOutProperties = {
         indicators: true,
@@ -32,7 +24,7 @@ export const Topbar = () =>
         
         <SlideShowConteiner >
           <Box >
-          <img src={logo} style={{width: "20%", margin: "5%"}}/>
+          <img src={logo} alt='logo' style={{width: "20%", margin: "5%"}}/>
             
             <div style={{marginLeft:"auto", display:"flex", padding:"1%",flexWrap: "wrap", width: "100vw", justifyContent:"end"}}>
             <h1 style={{margin:"2%", color:'green'}}>Home</h1>
@@ -44,7 +36,7 @@ export const Topbar = () =>
         <Zoom {...zoomOutProperties}>
         {listaCogums.map((each, index) => (
           <div key={index} style={{width: "100%"}}>
-            <img style={{ objectFit: "cover", width: "100%" }} src={each} />
+            <img style={{ objectFit: "cover", width: "100%" }} src={each} alt='screenshots' />
           </div>
         ))}
       </Zoom>
