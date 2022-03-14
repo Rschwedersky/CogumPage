@@ -27,8 +27,8 @@ export const Topbar = () =>
           <img src={logo} alt='logo' style={{width: "20%", margin: "5%"}}/>
             
             <div style={{marginLeft:"auto", display:"flex", padding:"1%",flexWrap: "wrap", width: "100vw", justifyContent:"end"}}>
-            <h1 style={{margin:"2%", color:'green'}}>Home</h1>
-              <h1 style={{margin:"2%", color:'green'}} > Receitas</h1>
+            <h1 style={{margin:"2%", color:'green', fontSize: '5.7vw'}}>Home</h1>
+              <h1 style={{margin:"2%", color:'green', fontSize: '5.7vw'}} > Receitas</h1>
             </div>
             
           
