@@ -22,6 +22,6 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: 100vh; */
-    background-color: #e0e0e0
+    background-color: #f0f0f0
 }
 `;

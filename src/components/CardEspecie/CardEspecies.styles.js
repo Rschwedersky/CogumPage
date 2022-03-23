@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const CardG = styled.li`
 
-background: #e0e0e0;
+background: #f0f0f0;
 
     padding: 1rem;
     list-style-type: none;
