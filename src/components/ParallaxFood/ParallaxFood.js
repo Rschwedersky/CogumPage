@@ -19,7 +19,7 @@ export const ParallaxFood = () =>{
     
     return(<>
     
-    <div style={{ textAlign: "center"}} onClick={()=>navigate('/receitas')}>
+    <div style={{ textAlign: "center"}} /* onClick={()=>navigate('/receitas')} */>
     <h2>Descubra como adicionar essas belezuras na sua panela!</h2>
     <Parallax
         blur={{ min: -15, max: 15 }}
