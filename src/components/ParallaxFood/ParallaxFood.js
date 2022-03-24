@@ -13,11 +13,9 @@ const insideStyles = {
     left: "50%",
     transform: "translate(-50%,-50%)"
   };
-  
-export const ParallaxFood = () =>{ 
-    /* const navigate = useNavigate(); */
-    
-    return(<>
+  /* const navigate = useNavigate(); */
+export const ParallaxFood = () =>
+   (
     
     <div style={{ textAlign: "center"}} /* onClick={()=>navigate('/receitas')} */>
     <h2>Descubra como adicionar essas belezuras na sua panela!</h2>
@@ -32,5 +30,5 @@ export const ParallaxFood = () =>{
       </div>
     </Parallax>
     </div>
-    </>
-)};
+
+);
