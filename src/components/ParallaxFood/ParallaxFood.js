@@ -1,7 +1,7 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
 import food from './../../assets/food.jpg';
-import { useNavigate } from 'react-router-dom';
+/* import { useNavigate } from 'react-router-dom'; */
 
 const insideStyles = {
     background: "white",
@@ -15,7 +15,7 @@ const insideStyles = {
   };
   
 export const ParallaxFood = () =>{ 
-    const navigate = useNavigate();
+    /* const navigate = useNavigate(); */
     
     return(<>
     
