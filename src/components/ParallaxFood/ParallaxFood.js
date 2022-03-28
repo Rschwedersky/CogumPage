@@ -1,6 +1,6 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
-import food from './../../assets/food.jpg';
+import food from './../../assets/food.webp';
 /* import { useNavigate } from 'react-router-dom'; */
 
 const insideStyles = {

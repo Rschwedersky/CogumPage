@@ -20,7 +20,7 @@ return(
         <h2>Estacões:</h2>
       {cogum.estacao.length === 0
             ? <></>
-            : cogum.estacao.map((item,index) => (item === 'verao')? <BsThermometerSun color="red"/>:<BsThermometerSnow color="blue"/>)}
+            : cogum.estacao.map((item,index) => (item === 'verao')? <BsThermometerSun key={index} color="red"/>:<BsThermometerSnow key={index} color="blue"/>)}
           
       </div>
       {/* <ShowMore onClick={()=>navigate(`//detail/${games.id}`,)}>Show More</ShowMore> */}

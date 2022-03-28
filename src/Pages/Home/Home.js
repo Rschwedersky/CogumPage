@@ -3,14 +3,19 @@ import { Especies } from "../../components/Especies/Especies";
 import { Footer } from "../../components/Footer/Footer";
 import { Topbar } from "../../components/Topbar";
 import { ParallaxFood } from "../../components/ParallaxFood/ParallaxFood";
-export const Home = ()=>{
+import { Contato } from "../../components/Contato/Contato";
 
+export const Home = ()=>{
+    
     return(
     <>
         <Topbar/>
         <Especies/>
         <ParallaxFood/>
+        <Contato/>
         <Footer/>
+        
+
     </>
     );
 };

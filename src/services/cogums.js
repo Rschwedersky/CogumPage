@@ -11,6 +11,7 @@ import kingEspecie from './../assets/especies/kingEspecie.webp'
   
     const cogums = [
     {
+      id:1,
       name: 'Pleurotus Ostreatus',
       comName:'Shimeji branco',
       image: brancoEspecie,
@@ -19,6 +20,7 @@ import kingEspecie from './../assets/especies/kingEspecie.webp'
       referência: 'https://mushroomreferences.com'
     },
     {
+      id:2,
       name: 'Pleurotus Citrinopilleatus',
       comName:'Shimeji amarelo',
       image: amareloEspecie,
@@ -27,6 +29,7 @@ import kingEspecie from './../assets/especies/kingEspecie.webp'
       referência: 'https://mushroomreferences.com'
     },
     {
+      id:3,
       name: 'Hericium erinaceus',
       comName:'Juba de Leão',
       image: lionsEspecie,
@@ -35,6 +38,7 @@ import kingEspecie from './../assets/especies/kingEspecie.webp'
       referência: 'https://mushroomreferences.com'
     },
     {
+      id:4,
       name: 'Pleurotus Ostreatus',
       comName:'Shimeji pérola',
       image: perolaEspecie,
@@ -43,6 +47,7 @@ import kingEspecie from './../assets/especies/kingEspecie.webp'
       referência: 'https://mushroomreferences.com'
     },
     {
+      id:5,
       name: 'Pleurotus Djamor',
       comName:'Shimeji rosa',
       image: rosaEspecie,
@@ -51,6 +56,7 @@ import kingEspecie from './../assets/especies/kingEspecie.webp'
       referência: 'https://mushroomreferences.com'
     },
     {
+      id:6,
       name: 'Pleurotus Ostreatus',
       comName:'Shimeji premium',
       image: shimofuriEspecie,
@@ -59,6 +65,7 @@ import kingEspecie from './../assets/especies/kingEspecie.webp'
       referência: 'https://mushroomreferences.com'
     },
     {
+      id:7,
       name: 'Pleurotus Eryngii',
       comName:'Shimeji rei',
       image: kingEspecie,
