@@ -1,19 +1,19 @@
 import styled from 'styled-components';
 
 export const CardG = styled.li`
-
+filter: grayscale(100%);
 background: #f0f0f0;
-
-    padding: 1rem;
-    list-style-type: none;
-    border-radius: 20px;
-    &:hover {
-        border-radius: 58px;
-        box-shadow:  8px 8px 16px #5c5c5c,
-             -8px -8px 16px #ffffff;
-             transform: translate(-6px, -6px);
-      }
-    
+margin: 3.5vw;
+padding: 2vw;
+list-style-type: none;
+border-radius: 20px;
+&:hover {
+    filter: grayscale(0%);
+    border-radius: 58px;
+    box-shadow:  8px 8px 16px #5c5c5c,
+    -8px -8px 16px #ffffff;
+    transform: translate(-6px, -6px);
+    }  
 `;
 
 export const CardGTitle = styled.h2`

@@ -25,7 +25,7 @@ export const ParallaxFood = () =>
         bgImageAlt="recipes"
         strength={-200}
     >
-       <div style={{ height: 500 }}>
+       <div style={{ height: 700 }}>
         <div style={insideStyles}>Receitas</div>
       </div>
     </Parallax>

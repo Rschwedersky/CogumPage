@@ -9,7 +9,7 @@ export const Container = styled.div`
 
 export const CardGrid = styled.ul`
     font-size: 20px;
-    margin: 10px;
+    padding: 10px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
