@@ -18,13 +18,13 @@ import {
 } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDIXJ5YT7hoNbBFqK3TBcV41-TzIO-7n7w",
-  authDomain: "fir-auth-6edd8.firebaseapp.com",
-  projectId: "fir-auth-6edd8",
-  storageBucket: "fir-auth-6edd8.appspot.com",
-  messagingSenderId: "904760319835",
-  appId: "1:904760319835:web:44fd0d957f114b4e51447e",
-  measurementId: "G-Q4TYKH9GG7",
+  apiKey: "AIzaSyD4FYqwJvdzD8z-fUn7O4hU5Dhn6y17adM",
+  authDomain: "cogum-react.firebaseapp.com",
+  projectId: "cogum-react",
+  storageBucket: "cogum-react.appspot.com",
+  messagingSenderId: "523382008243",
+  appId: "1:523382008243:web:f82e83270c00eaf62203c6",
+  measurementId: "G-N2Q8RSCSE2"
 };
 
 const app = initializeApp(firebaseConfig);
