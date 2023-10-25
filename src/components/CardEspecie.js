@@ -4,7 +4,7 @@ import { BsThermometerSnow } from 'react-icons/bs';
 import { BsThermometerSun } from 'react-icons/bs';
 
 
-export const CardEspecies = ({cogum}) => {
+export default function CardEspecies ({cogum}) {
     
 
 return(

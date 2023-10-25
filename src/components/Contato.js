@@ -1,11 +1,6 @@
 import React from 'react';
-import eu from './../../assets/eu.webp'
 
-export const Contato = () =>{
-    
-    
- 
-    
+export default function Contato () {
  return(
     <div style={{backgroundColor:'green',width:"100vw", display:"flex",flexWrap:'wrap'}}>
         <div>
@@ -16,7 +11,6 @@ title="maps"></iframe>
         <div style={{width:"30vw",minWidth:'350px',height:"80vh", border:0, borderRadius:'10vh',padding:'12px',margin:'2.5vw'}}>
             <h2>Estamos produzindo nossos cogums bem pertinho!</h2>
             <p>A produção localizada no sul da ilha de Florianópolis - SC, na praia do Campeche é ideal para entregar os cogums fresquinhos na sua residência. Marque uma visita para conhecer um pouco da dedicação na produção desse alimento fascinante!</p>
-            {/* <img src={eu} style={{width:"25vw"}} alt="Eu"></img> */}
         </div>
     </div>
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import { CardGrid, Container} from './Especies.styles';
-import {useCogums} from './../../context/cogums/useCogums'
+import {useCogums} from '../context/cogums/useCogums'
 import { GiSuperMushroom, GiGrassMushroom } from 'react-icons/gi';
-import { CardEspecies } from '../CardEspecie/CardEspecie';
-export const Especies = () => {
+import  CardEspecies  from './CardEspecie';
+export default function Especies () {
     
     const {listaEspecie} = useCogums();
     return(<>

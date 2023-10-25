@@ -1,7 +1,5 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
-import food from './../../assets/food.webp';
-/* import { useNavigate } from 'react-router-dom'; */
 
 const insideStyles = {
     background: "white",
@@ -14,14 +12,14 @@ const insideStyles = {
     transform: "translate(-50%,-50%)"
   };
   /* const navigate = useNavigate(); */
-export const ParallaxFood = () =>
+  export default function ParallaxFood  () {
    (
     
     <div style={{ textAlign: "center"}} /* onClick={()=>navigate('/receitas')} */>
     <h2>Descubra como adicionar essas belezuras na sua panela!</h2>
     <Parallax
         blur={{ min: -15, max: 15 }}
-        bgImage={food}
+        bgImage={"/assets/food.webp"}
         bgImageAlt="recipes"
         strength={-200}
     >
@@ -31,4 +29,4 @@ export const ParallaxFood = () =>
     </Parallax>
     </div>
 
-);
+)};

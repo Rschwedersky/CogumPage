@@ -1,9 +1,9 @@
-import "./App.css";
+/* import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Login from "./Login";
-import Register from "./Register";
-import Reset from "./Reset";
-import Dashboard from "./Dashboard";
+import Login from "./Pages/Login/Login";
+import Register from "./Pages/Register/Register";
+import Reset from "./Pages/Reset/Reset";
+import Dashboard from "./Pages/Dashboard/Dashboard";
 
 import { CogumsProvider } from './context/cogums/CogumsProvider';
 import { GlobalStyle } from './themes/GlobalStyles';
@@ -30,4 +30,28 @@ function App() {
   );
 }
 
-export default App;
+export default App */;
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom"
+import routes from "./routes"
+import Layout from "./components/Layout"
+import Page404 from "./Pages/Page404"
+
+function App() {
+  const router = createBrowserRouter([
+    {
+      element: <Layout />,
+      errorElement: <Page404 />,
+      children: routes
+    },
+  ])
+
+  return (
+      <RouterProvider router={router} />
+  )
+}
+
+export default App

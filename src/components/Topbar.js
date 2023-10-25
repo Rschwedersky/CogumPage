@@ -2,13 +2,12 @@ import React from 'react';
 import { Zoom } from 'react-slideshow-image';
 import { SlideShowConteiner, Box} from './Topbar.styles';
 import 'react-slideshow-image/dist/styles.css'
-import { useCogums } from '../../context/cogums/useCogums';
+import { useCogums } from './../context/cogums/';
 import { Link } from "react-router-dom";
 
 
 
-export const Topbar = () =>
-{
+export default function Topbar  () {
   const {logo, listaCogums}= useCogums();
   
 
